@@ -1,0 +1,16 @@
+<script type="text/javascript">
+    var urls = [
+        "https://www.youtube.com/watch?v=KQnozHl2_kA",
+        'https://www.youtube.com/watch?v=USBWDev4oS4&feature=youtu.be&t=112',
+        'https://www.youtube.com/watch?v=wXPcbqbzMkE',
+		'https://www.youtube.com/watch?v=uhg0SUYOXjw&feature=youtu.be&t=365',
+		'https://www.youtube.com/watch?v=sluqMkE9k_w'
+    ];
+
+    function goSomewhere() {
+        var url = urls[Math.floor(Math.random()*urls.length)];
+        window.location = url; // redirect
+    }
+</script>
+
+<a href="#" ononline="goSomewhere(); return false;">Start<script>
